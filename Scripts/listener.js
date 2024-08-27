@@ -1,4 +1,4 @@
 const aboutButton = document.querySelector('.buttonAbout')
 
-aboutButton.addEventListener('click', () => window.location.href = 'Lstn365/Pages/about.html')
+aboutButton.addEventListener('click', () => window.location.href = 'https://pairo-dice.github.io/Lstn365/Pages/about.html')
 
