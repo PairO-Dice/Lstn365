@@ -1,0 +1,78 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+   margin-top: 0px;
+   margin-left: 0px;
+}
+
+.albumCover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.songName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.artistName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    height: 40px;
+}
+
+.topRow {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+#Logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.buttonAbout{
+    color: white;
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: right;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.buttonHome{
+    color: white;
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: right;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.info{
+    padding-top: 250px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonAbout:hover{
+    background: gray;
+}
+
+.buttonHome:hover{
+    background: gray;
+}
